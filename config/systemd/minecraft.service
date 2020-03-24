@@ -1,0 +1,23 @@
+[Unit]
+Description=Minecraft Server
+Requires=docker.service
+After=docker.service
+
+[Service]
+User=minecraft
+Group=minecraft
+WorkingDirectory=/home/minecraft/minecraft-docker
+Restart=always
+
+# Remove old containers, images and volumes
+ExecStartPre=/usr/bin/docker-compose down -v
+ExecStartPre=/usr/bin/docker-compose rm -v
+
+# Compose up
+ExecStart=/usr/bin/docker-compose up
+
+# Compose down, remove containers and volumes
+ExecStop=/usr/bin/docker-compose down -v
+
+[Install]
+WantedBy=multi-user.target

@@ -5,7 +5,7 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ".:/data"
+      - "/home/minecraft/minecraft-docker:/data"
     environment:
       EULA: "TRUE"
       CONSOLE: "true"

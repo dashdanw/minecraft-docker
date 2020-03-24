@@ -1,0 +1,28 @@
+[02:06:12] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:06:12] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:06:12] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:06:12] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:06:13] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:06:13] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[02:06:13] [Server thread/INFO]: Loading properties
+[02:06:13] [Server thread/INFO]: Default game type: SURVIVAL
+[02:06:13] [Server thread/INFO]: Generating keypair
+[02:06:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:06:14] [Server thread/INFO]: Using epoll channel type
+[02:06:14] [Server thread/INFO]: Preparing level "world"
+[02:06:14] [Server thread/INFO]: Reloading ResourceManager: Default
+[02:06:16] [Server thread/INFO]: Loaded 6 recipes
+[02:06:17] [Server thread/INFO]: Loaded 825 advancements
+[02:06:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:06:46] [Server thread/INFO]: Preparing spawn area: 0%
+[02:06:46] [Server thread/INFO]: Preparing spawn area: 0%
+[02:06:46] [Server thread/INFO]: Preparing spawn area: 0%
+[02:06:46] [Server thread/INFO]: Preparing spawn area: 0%
+[02:06:46] [Server thread/INFO]: Preparing spawn area: 37%
+[02:06:46] [Server thread/INFO]: Time elapsed: 2340 ms
+[02:06:46] [Server thread/INFO]: Done (32.289s)! For help, type "help"
+[02:06:46] [Server thread/INFO]: Starting remote control listener
+[02:06:46] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
+[02:07:01] [User Authenticator #1/INFO]: UUID of player roli0914 is 85d60348-8681-44ce-a36f-3c040b630f8f
+[02:07:02] [Server thread/INFO]: roli0914[/108.46.55.41:64896] logged in with entity id 324 at (-37.58281901861564, 58.0, -46.30341937875601)
+[02:07:02] [Server thread/INFO]: roli0914 joined the game
